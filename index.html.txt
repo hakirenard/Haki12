@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini Oyun</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+<h1>🎮 Oyun</h1>
+<p>Puan: <span id="puan">0</span></p>
+
+<button onclick="tikla()" style="padding:20px; font-size:20px;">
+Tıkla!
+</button>
+
+<script>
+let puan = 0;
+
+function tikla() {
+    puan++;
+    document.getElementById("puan").innerText = puan;
+}
+</script>
+
+</body>
+</html>
